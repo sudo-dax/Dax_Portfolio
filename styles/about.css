@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+#main-nav {
+  height: 1vh;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: url("/img/Backgrounds/nav.jpg") no-repeat;
+  border-bottom: 3px solid #7e0000;
+}
+
+#main-nav #logo {
+  padding-top: 0.1%;
+  padding-bottom: 0em;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  height: -fit-content;
+  width: 10%;
+  top: 2vh;
+  left: .1em;
+}
+
+#main-nav #menu {
+  padding-left: 10%;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#main-nav #links {
+  list-style: none;
+  font-size: fit;
+  text-shadow: 2px 2px 3px #ff0000;
+}
+
+.main {
+  height: 100%;
+  background-image: url(/img/Backgrounds/Nature/georgia-de-lotz-jGp19MQ6_jk-unsplash.jpg), url(/img/Backgrounds/Nature/chris-abney-qLW70Aoo8BE-unsplash.jpg);
+  background-size: 150%;
+  background-position: right top, right bottom;
+  background-repeat: no-repeat, repeat;
+  width: -1vw;
+  height: 200vh;
+  border: 2px solid;
+}
+
+.main .text {
+  width: 80%;
+  top: 8em;
+  padding-top: .8rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.8rem;
+  background-color: transparent;
+  -webkit-box-shadow: 10px 5px 19px #3d2f2f;
+          box-shadow: 10px 5px 19px #3d2f2f;
+  border-radius: 15px;
+  font-size: 2vh;
+}
+
+.main .text:hover {
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  border: 1px dotted green;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main .text h1 {
+  color: #14ad14;
+  text-shadow: 2px 2px 3px #3c773c;
+}
+
+.main .text h1:hover {
+  -webkit-transition: 3s;
+  transition: 3s;
+  color: #afb906;
+  text-shadow: 4px 3px 4px #2dc312;
+}
+
+.main .text p {
+  width: auto;
+  top: 8em;
+  padding-top: .8rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1.8rem;
+  color: #29d431;
+}
+
+.background-image {
+  size: auto;
+}
+/*# sourceMappingURL=about.css.map */
