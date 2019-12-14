@@ -5,18 +5,16 @@
 
 body {
 height: 100vh;
-
 }
 
+// NAV BAR
 #main-nav {
-
     height: 1vh;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
     background: url('/img/Backgrounds/nav.jpg') no-repeat;
     border-bottom: 3px solid rgb(126, 0, 0); 
-    
     #logo {
         padding-top: 0.1%;
         padding-bottom: 0em;
@@ -48,16 +46,26 @@ hr {
 	border-top: 3px double #8c8b8b;
 }
 
+
+// MAIN BODY
+
 .main {
     height: 100%;
     width: 100%;
-    padding-top: 4vh;
-    padding-left: 3vw;
-    background-image: url("/img/Backgrounds/Nature/adesh-bankar-oD4AM2tJHhg-unsplash.jpg");
-//     background-size: 100%;
-//     background-position: right bottom, left top;
-//   background-repeat: no-repeat, no-repeat, no-repeat;
-// display: grid;
+}
+
+.multi-bg {
+    width: 100%;
+    background-image: url(/img/Backgrounds/Nature/adesh-bankar-oD4AM2tJHhg-unsplash.jpg),
+        url(/img/Backgrounds/Nature/ren-ran-bBiuSdck8tU-unsplash.jpg),
+        linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat,
+        no-repeat,
+        no-repeat;
+    background-position: top left,
+        left,
+        right;
+}
 
     
     h1, h2 {
@@ -97,7 +105,7 @@ hr {
     }
 
 
-}
+
 
 a {
     font-size: 1.4em;
@@ -115,6 +123,21 @@ a {
     }
 
 }     
+
+#pic1 {
+    height: 10rem;
+    width:  40%;
+border-radius: 200px;
+box-shadow: 10px 5px 19px rgb(61, 47, 47);
+position: relative;
+left: 25%;
+border: 5px solid linear-gradient(135deg, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);
+&:hover {
+    transition: 2s;
+    border-radius: 10px;
+
+}
+}
 
 
 @media only screen and (max-width:430px) {

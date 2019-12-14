@@ -67,6 +67,7 @@ body {
   padding-right: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.8rem;
+  margin-left: 0.9rem;
   background-color: transparent;
   -webkit-box-shadow: 10px 5px 19px #3d2f2f;
           box-shadow: 10px 5px 19px #3d2f2f;
@@ -79,14 +80,15 @@ body {
   transition: 0.6s;
   border: 1px dotted green;
   background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 1.9rem;
 }
 
-.main .text h1 {
+.main .text h1, .main .text h2 {
   color: #14ad14;
   text-shadow: 2px 2px 3px #3c773c;
 }
 
-.main .text h1:hover {
+.main .text h1:hover, .main .text h2:hover {
   -webkit-transition: 3s;
   transition: 3s;
   color: #afb906;
@@ -102,9 +104,5 @@ body {
   padding-bottom: 1rem;
   margin-bottom: 1.8rem;
   color: #29d431;
-}
-
-.background-image {
-  size: auto;
 }
 /*# sourceMappingURL=about.css.map */
