@@ -11,12 +11,16 @@ html {
 // z-index: 1;
 }
 
-.main {
-    height: 300vh;
+.image {
+  border-radius: 100px;
+  margin-left: 1.8em;
+  height: auto;
+  width: 80vw;
+}
 
-    // width: -1vw;
-    // height: 200vh;
-    // border: 2px solid;
+// MAIN BODY
+.main {
+    height: 100vh;
     .text {
         height: 25vh;
         width: 80%;

@@ -1,12 +1,11 @@
-body {
-  font-family: 'Open Sans', arial, sans-serif;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100 */
-  background: url(/img/Backgrounds/background-pattern.png);
-}
-
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  background: url(/img/Backgrounds/background-pattern.png);
 }
 
 #categories {

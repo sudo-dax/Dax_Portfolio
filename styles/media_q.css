@@ -5,13 +5,42 @@
   #window1:hover {
     left: -10%;
   }
-  background-color: red;
 }
 
 @media only screen and (min-width: 430px) {
+  a {
+    font-size: 1em;
+  }
+  #findme {
+    width: 40vw;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  a {
+    font-size: 2em;
+  }
   .pics {
     position: relative;
     right: -30vw;
+  }
+  .image {
+    border-radius: 100px;
+    margin-left: 1em;
+  }
+  #findme {
+    width: 20vw;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 /*# sourceMappingURL=media_q.css.map */

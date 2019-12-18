@@ -4,28 +4,59 @@
         font-size:  .8rem;
     }     
     
-    // #window1 {
-    //     &:hover {
-    //         transition: 2s;
-    //         left: -18%;
-    //     }
-    // }
-    
 #window1 {
     &:hover {
         left: -10%;
+    }
+}
+
+}
+
+
+
+// FOR MEDIUM SCREENS (430-768px wide)
+@media only screen and (min-width:430px) {
+    a {
+        font-size:  1em;
+    }
+    
+    #findme {
+        width: 40vw;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+}
+
+
+
+
+// FOR BIG SCREENS (>768px wide)
+@media only screen and (min-width:768px) {
+    a {
+        font-size:  2em;
+    } 
+
+    .pics {
+        position: relative;
+        right: -30vw;
+    }         
+
+    .image {
+        border-radius: 100px;
+        margin-left: 1em;
+    }
+
+    #findme {
+        width: 20vw;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
     }
 
 }
 
 
-    background-color: red;
-}
-
-// FOR BIG SCREENS (>430px wide)
-@media only screen and (min-width:430px) {
-    .pics {
-        position: relative;
-        right: -30vw;
-    }         
-}

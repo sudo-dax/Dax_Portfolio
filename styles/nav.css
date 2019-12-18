@@ -52,4 +52,16 @@ body {
 hr {
   border-top: 3px double #8c8b8b;
 }
+
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+a:hover {
+  -webkit-transition: 1.57s;
+  transition: 1.57s;
+  color: #b81e03;
+  text-shadow: 4px 4px 4px darkorange;
+}
 /*# sourceMappingURL=nav.css.map */
