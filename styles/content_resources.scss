@@ -10,6 +10,47 @@ background-repeat: repeat;
     left: 4em;
 }
 
+.flex-container {
+padding: 0%;
+margin: 0%;
+list-style: none;
+
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+
+}
+
+.img-link {
+    padding: 1px;
+    height: 6vh;
+    &:hover {
+        transition: 2s ease;
+        height: 9vh;
+    }
+}
+
+.video-container {
+    position: relative;
+    left: 20%;
+    width: 80%;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+}
+
+
+
+
+
+
 /*
   Malik Dellidj - @Dathink
 
