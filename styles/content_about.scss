@@ -1,0 +1,83 @@
+html {
+    background-image: url(/img/Backgrounds/background1.jpg);
+    background-size: 100%;
+    // background-position: 10% 46em, 100% 100em, 20% 4vh, 45% 88em, 100% 40%, 100% 10vh
+    background-position: calc(100% - 1em);
+    // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+}
+// BODY
+.Backgrounds {
+// height: 100%;
+// z-index: 1;
+}
+
+.main {
+    height: 300vh;
+
+    // width: -1vw;
+    // height: 200vh;
+    // border: 2px solid;
+    .text {
+        height: 25vh;
+        width: 80%;
+        top: 8em;
+        padding-top: .8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1.8rem;
+        margin-left: 0.9rem;
+        background-color: transparent;
+        box-shadow: 10px 5px 19px rgb(61, 47, 47);
+        border-radius: 15px;
+        font-size: 2vh;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        &:hover {
+            transition: 0.9s;
+            height: auto;
+            font-size: 3vh;
+            border:1px dotted green;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin-left: 0.9rem;
+        }
+        h1, h2 {
+            color: rgb(20, 173, 20);
+            text-shadow: 2px 2px 3px rgb(60, 119, 60);
+            &:hover {
+                transition: 3s;
+                color: rgb(175, 185, 6);
+                text-shadow: 4px 3px 4px rgb(45, 195, 18);  
+            }
+        }
+        p {
+            width: auto;
+            top: 8em;
+            padding-top: .8rem;
+            padding-left: 1.5rem;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            margin-bottom: 1.8rem;
+            color: rgb(41, 212, 49);
+            
+        }
+    }
+}
+
+
+#window1 {
+    height: 18em;
+    width:  18em;
+    margin: 3em;
+    border-radius: 300px;
+    box-shadow: 10px 5px 19px rgb(61, 47, 47);
+    position: relative;
+    left: 0%;
+    &:hover {
+        transition: 2s;
+        height: 22em;
+        width:  22em;
+        border-radius: 9px;
+        box-shadow: 5px 3px 25px rgb(207, 211, 19);
+    }
+}

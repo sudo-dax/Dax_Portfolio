@@ -1,0 +1,17 @@
+@media only screen and (max-width: 430px) {
+  a {
+    font-size: .8rem;
+  }
+  #window1:hover {
+    left: -10%;
+  }
+  background-color: red;
+}
+
+@media only screen and (min-width: 430px) {
+  .pics {
+    position: relative;
+    right: -30vw;
+  }
+}
+/*# sourceMappingURL=media_q.css.map */
