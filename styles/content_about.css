@@ -1,5 +1,5 @@
 html {
-  background-image: url(./img/Backgrounds/background1.jpg);
+  background-image: url(../img/Backgrounds/background1.jpg);
   background-size: 100%;
   background-position: calc(100% - 1em);
 }
