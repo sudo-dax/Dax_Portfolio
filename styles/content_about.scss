@@ -1,21 +1,59 @@
 html {
     background-image: url(/img/Backgrounds/background1.jpg);
     background-size: 100%;
-    // background-position: 10% 46em, 100% 100em, 20% 4vh, 45% 88em, 100% 40%, 100% 10vh
     background-position: calc(100% - 1em);
-    // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat;
-}
-// BODY
-.Backgrounds {
-// height: 100%;
-// z-index: 1;
 }
 
+
+// BODY
+
+// IMAGE-OVERLAY COMPONENT
+
+.container {
+    position: relative;
+    width: 50%;  }
+
 .image {
-  border-radius: 100px;
-  margin-left: 1.8em;
-  height: auto;
-  width: 80vw;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+19,666666+36,666666+36,474747+42,2c2c2c+46,000000+52,111111+60,2b2b2b+76,1c1c1c+91,131313+100 */
+  background: rgb(76,76,76); /* Old browsers */
+  background: -moz-linear-gradient(45deg,  rgb(76,76,76) 0%, rgb(89,89,89) 19%, rgb(102,102,102) 36%, rgb(102,102,102) 36%, rgb(71,71,71) 42%, rgb(44,44,44) 46%, rgb(0,0,0) 52%, rgb(17,17,17) 60%, rgb(43,43,43) 76%, rgb(28,28,28) 91%, rgb(19,19,19) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  rgb(76,76,76) 0%,rgb(89,89,89) 19%,rgb(102,102,102) 36%,rgb(102,102,102) 36%,rgb(71,71,71) 42%,rgb(44,44,44) 46%,rgb(0,0,0) 52%,rgb(17,17,17) 60%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  rgb(76,76,76) 0%,rgb(89,89,89) 19%,rgb(102,102,102) 36%,rgb(102,102,102) 36%,rgb(71,71,71) 42%,rgb(44,44,44) 46%,rgb(0,0,0) 52%,rgb(17,17,17) 60%,rgb(43,43,43) 76%,rgb(28,28,28) 91%,rgb(19,19,19) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 60px;
+}
+
+.container:hover .overlay {
+    width: 100%;
+    left: 15px;
+}
+
+.text1 {
+    color: white;
+    font-size: .7em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
 // MAIN BODY

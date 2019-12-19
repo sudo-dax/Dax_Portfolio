@@ -130,6 +130,7 @@ a:hover {
 #pic1 {
   height: 18rem;
   width: 18rem;
+  position: relative;
   border-radius: 200px;
   -webkit-box-shadow: 10px 5px 19px #3d2f2f;
           box-shadow: 10px 5px 19px #3d2f2f;
@@ -144,7 +145,11 @@ a:hover {
 }
 
 .pics {
+  width: 100%;
   position: relative;
-  right: -13vw;
+}
+
+.date {
+  color: grey;
 }
 /*# sourceMappingURL=content_main.css.map */

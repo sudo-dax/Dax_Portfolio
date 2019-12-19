@@ -18,7 +18,12 @@ list-style: none;
 display: flex;
 flex-flow: row wrap;
 justify-content: space-around;
+}
 
+#click {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  margin-left: 10vw
 }
 
 .img-link {

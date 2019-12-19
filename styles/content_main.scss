@@ -127,6 +127,7 @@ a {
 #pic1 {
     height: 18rem;
     width:  18rem;
+    position: relative;
 border-radius: 200px;
 box-shadow: 10px 5px 19px rgb(61, 47, 47);
 // position: relative;
@@ -140,7 +141,10 @@ box-shadow: 10px 5px 19px rgb(61, 47, 47);
 }
 
 .pics {
+    width: 100%;
     position: relative;
-    right: -13vw;
 }
 
+.date {
+    color: grey;
+}
