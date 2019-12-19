@@ -1,6 +1,6 @@
 .main {
   height: 100%;
-  background-image: url(/img/Backgrounds/Nature/georgia-de-lotz-jGp19MQ6_jk-unsplash.jpg), url(/img/Backgrounds/Nature/chris-abney-qLW70Aoo8BE-unsplash.jpg);
+  background-image: url(../img/Backgrounds/Nature/georgia-de-lotz-jGp19MQ6_jk-unsplash.jpg), url(../img/Backgrounds/Nature/chris-abney-qLW70Aoo8BE-unsplash.jpg);
   background-size: 150%;
   background-position: right top, right bottom;
   background-repeat: no-repeat, repeat;
@@ -63,8 +63,8 @@
 
 .multi-bg {
   width: 100%;
-  background-image: url(/img/Backgrounds/Nature/adesh-bankar-oD4AM2tJHhg-unsplash.jpg), url(/img/Backgrounds/Nature/ren-ran-bBiuSdck8tU-unsplash.jpg), -webkit-gradient(linear, left top, right top, from(#1e4b73), to(rgba(255, 255, 255, 0)));
-  background-image: url(/img/Backgrounds/Nature/adesh-bankar-oD4AM2tJHhg-unsplash.jpg), url(/img/Backgrounds/Nature/ren-ran-bBiuSdck8tU-unsplash.jpg), linear-gradient(to right, #1e4b73, rgba(255, 255, 255, 0));
+  background-image: url(../img/Backgrounds/Nature/adesh-bankar-oD4AM2tJHhg-unsplash.jpg), url(/img/Backgrounds/Nature/ren-ran-bBiuSdck8tU-unsplash.jpg), -webkit-gradient(linear, left top, right top, from(#1e4b73), to(rgba(255, 255, 255, 0)));
+  background-image: url(../img/Backgrounds/Nature/adesh-bankar-oD4AM2tJHhg-unsplash.jpg), url(/img/Backgrounds/Nature/ren-ran-bBiuSdck8tU-unsplash.jpg), linear-gradient(to right, #1e4b73, rgba(255, 255, 255, 0));
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top left, left, right;
 }
