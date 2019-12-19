@@ -25,9 +25,9 @@ It also help to get us started with coding frontend of websites, as well as, sty
 <hr>
 
 ##        Screenshots
-![alt text](/home/x/Documents/CA/Assignments/Portfolio/src/img/Screenshots/Screenshot1.png "Screenshot 1")
-![alt text](/home/x/Documents/CA/Assignments/Portfolio/src/img/Screenshots/Screenshot2.png "Screenshot 2")
-![alt text](/home/x/Documents/CA/Assignments/Portfolio/src/img/Screenshots/Screenshot3.png "Screenshot 3")
+![Screenshot1](https://github.com/sudo-dax/Dax_Portfolio/blob/master/img/Screenshots/Screenshot1.png "Screenshot 1")
+![Screenshot2](https://github.com/sudo-dax/Dax_Portfolio/blob/master/img/Screenshots/Screenshot2.png "Screenshot 2")
+![Screenshot3](https://github.com/sudo-dax/Dax_Portfolio/blob/master/img/Screenshots/Screenshot3.png "Screenshot 3")
 
 <hr>
 
