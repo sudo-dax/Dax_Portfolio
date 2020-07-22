@@ -17,14 +17,19 @@ body {
   min-height: 100%;
 }
 
-.content {
-  opacity: 0.8;
+.bar {
   position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  height: 40vh;
   width: 100%;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f1f1f1;
   padding: 20px;
+}
+
+#wrapper {
+  height: 100%;
+  width: 66vw;
 }
 
 a {
@@ -35,5 +40,17 @@ a:hover {
   -webkit-transition: 0.7s;
   transition: 0.7s;
   color: green;
+}
+
+@media (max-width: 800px) {
+  .short-text {
+    display: inline-block;
+  }
+  .bar {
+    height: 18vh;
+  }
+  .full-text {
+    display: none;
+  }
 }
 /*# sourceMappingURL=index.css.map */

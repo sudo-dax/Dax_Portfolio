@@ -1,4 +1,5 @@
 html {
+  scroll-behavior: smooth;
   background-image: url(../img/Backgrounds/background1.jpg);
   background-size: 100%;
   background-position: calc(100% - 1em);
@@ -6,13 +7,15 @@ html {
 
 .container {
   position: relative;
-  width: 50%;
+  left: 14%;
+  max-width: 60%;
 }
 
 .image {
   display: block;
   width: 100%;
   height: auto;
+  border-radius: 1rem;
 }
 
 .overlay {
@@ -34,7 +37,7 @@ html {
   height: 100%;
   -webkit-transition: .5s ease;
   transition: .5s ease;
-  border-radius: 60px;
+  border-radius: 1rem;
 }
 
 .container:hover .overlay {
@@ -44,7 +47,7 @@ html {
 
 .text1 {
   color: white;
-  font-size: .7em;
+  font-size: 3vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,14 +56,59 @@ html {
   white-space: nowrap;
 }
 
+.pic-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#img-1 {
+  max-width: auto;
+  height: 80vh;
+  border-radius: 33rem;
+}
+
+#img-1:hover {
+  -webkit-transition: 0.9s ease;
+  transition: 0.9s ease;
+  height: 111vh;
+  border-radius: 10px;
+}
+
+#img-2 {
+  max-width: 38vw;
+  height: auto;
+  border-radius: 60px;
+}
+
+#img-2:hover {
+  -webkit-transition: 0.9s ease;
+  transition: 0.9s ease;
+  max-width: 70vw;
+  border-radius: 10px;
+}
+
 .main {
+  position: absolute;
+  left: 10%;
   height: 100vh;
+  font-family: Verdana;
+  padding-top: 6rem;
 }
 
 .main .text {
   height: 25vh;
   width: 80%;
-  top: 8em;
   padding-top: .8rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -71,7 +119,7 @@ html {
   -webkit-box-shadow: 10px 5px 19px #3d2f2f;
           box-shadow: 10px 5px 19px #3d2f2f;
   border-radius: 15px;
-  font-size: 2vh;
+  font-size: 4vh;
   text-overflow: ellipsis;
   overflow: hidden;
 }
@@ -80,22 +128,21 @@ html {
   -webkit-transition: 0.9s;
   transition: 0.9s;
   height: auto;
-  font-size: 3vh;
+  font-size: 6vh;
   border: 1px dotted green;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #14171c;
   margin-left: 0.9rem;
 }
 
 .main .text h1, .main .text h2 {
-  color: #14ad14;
-  text-shadow: 2px 2px 3px #3c773c;
+  color: rgba(255, 255, 0, 0.917);
+  text-shadow: 3px 6px 9px #2dc312;
 }
 
 .main .text h1:hover, .main .text h2:hover {
   -webkit-transition: 3s;
   transition: 3s;
   color: #afb906;
-  text-shadow: 4px 3px 4px #2dc312;
 }
 
 .main .text p {
@@ -106,27 +153,6 @@ html {
   padding-right: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.8rem;
-  color: #29d431;
-}
-
-#window1 {
-  height: 18em;
-  width: 18em;
-  margin: 3em;
-  border-radius: 300px;
-  -webkit-box-shadow: 10px 5px 19px #3d2f2f;
-          box-shadow: 10px 5px 19px #3d2f2f;
-  position: relative;
-  left: 0%;
-}
-
-#window1:hover {
-  -webkit-transition: 2s;
-  transition: 2s;
-  height: 22em;
-  width: 22em;
-  border-radius: 9px;
-  -webkit-box-shadow: 5px 3px 25px #cfd313;
-          box-shadow: 5px 3px 25px #cfd313;
+  color: #B8860B;
 }
 /*# sourceMappingURL=content_about.css.map */
