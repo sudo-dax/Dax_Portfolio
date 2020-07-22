@@ -1,16 +1,18 @@
 # DAX S. Portfolio
-<hr>
-A link (URL) to your published portfolio website
-[Dax's Portfolio Website](https://github.com/sudo-dax "Dax's Github")
-<br>
-A link to your GitHub repository (repo)
+<hr><hr>
+
+### A link (URL) to your published portfolio website
+[Dax's Portfolio Website](https://sudo-dax.github.io/Dax_Portfolio/ "Dax's Github")
+
+### A link to your GitHub repository (repo)
 [Dax's GitHub Repository](https://github.com/sudo-dax "Dax's Repo")
 
 
 ##        Purpose
-The purpose of this assignment to teach us how to communicate and demonstrate our abilities to prospective employers. 
-It also help to get us started with coding frontend of websites, as well as, styling them. 
-<hr>
+The purpose of this assignment to teach us how to deploy and practice our html and css abilities to showcase. 
+It also gets us started with coding frontend of websites. This is just a first iteration of this site and is a work in progress. A new and improved site will be up soon. 
+
+
 ##        Functionality / features
 - Moving text
 - Changing Colors
