@@ -40,8 +40,8 @@
     color: green;
   }
 
-// Hide full text and show short text only when screen is <800px
-@media (max-width: 800px) {
+// Hide full text and show short text only when screen is <900px
+@media (max-width: 900px) {
   .short-text { display: inline-block; }
   .bar { height: 18vh; } 
   .full-text { display: none; }
