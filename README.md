@@ -36,8 +36,9 @@ It also gets us started with coding frontend of websites. This is just a first i
 
 
 ##        Target audience
-The target audience is a potential employer looking to engage a dev or Information Technology (IT) Professional.
-This person could have some to expert knowledge related to IT
+This site is mainly created for fun, to explore the abilities of HTML/CSS, it has been years since I've played around with it, but it will be updated 
+as time allows and as my experience and knowledge grows. This was done in 2019, and it is definitely time for an update. 
+
 <hr>
 
 ## Tech stack (e.g. html, css, deployment platform, etc)
