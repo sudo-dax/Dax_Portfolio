@@ -1,6 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
 }
 
 body {
@@ -8,11 +7,12 @@ body {
 }
 
 #main-nav {
-  height: 1vh;
+  height: 10px;
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background: url("../img/Backgrounds/nav.jpg") repeat;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#047254), to(#0f3f33));
+  background: linear-gradient(#047254, #0f3f33);
   background-size: 100%;
   border-bottom: 3px solid #7e0000;
 }
@@ -25,7 +25,7 @@ body {
   position: absolute;
   height: -fit-content;
   width: 10%;
-  top: 2vh;
+  top: 0vh;
   left: .1em;
 }
 
@@ -45,7 +45,8 @@ body {
 
 #links {
   list-style: none;
-  font-size: fit;
+  font-size: auto;
+  white-space: nowrap;
   text-shadow: 2px 2px 3px #ff0000;
 }
 
@@ -53,15 +54,27 @@ hr {
   border-top: 3px double #8c8b8b;
 }
 
-a {
+.menu-item {
   text-decoration: none;
-  color: darkgreen;
+  color: #6BD425;
+  margin: .5em;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  border-top: 2px solid #777777;
+  border-right: 2px solid #333333;
+  border-bottom: 3px solid #444444;
+  border-left: 2px solid #777777;
+  border-radius: 8px;
+  background-color: transparent;
 }
 
-a:hover {
-  -webkit-transition: 1.57s;
-  transition: 1.57s;
+.menu-item:hover {
+  -webkit-transition: 0.57s ease;
+  transition: 0.57s ease;
   color: #b81e03;
-  text-shadow: 4px 4px 4px darkorange;
+  text-shadow: 4px 4px 4px #9b5807;
+  background-color: #14171C;
 }
 /*# sourceMappingURL=nav.css.map */
