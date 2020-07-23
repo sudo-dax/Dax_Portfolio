@@ -18,12 +18,14 @@
   
   .bar {
     position: fixed;
-    height: 40vh;
+    height: 20vh;
     width: 100%;
     bottom: 0;
     background: rgba(0, 0, 0, 0.6);
     color: #f1f1f1;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 5px;
   }
 
   #wrapper {
@@ -40,9 +42,20 @@
     color: green;
   }
 
+p {
+    margin-top: -30px;
+}
+
+  .short-text {
+  display:none;
+}
+
+.full-text {
+  display: inline-block;
+}
 // Hide full text and show short text only when screen is <900px
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .short-text { display: inline-block; }
-  .bar { height: 18vh; } 
+  .bar { height: 15vh; } 
   .full-text { display: none; }
 }
