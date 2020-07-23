@@ -70,6 +70,11 @@
         right;
 }
 
+.post-wrap {
+    position: absolute;
+    width: 100%;
+    
+}
     
     h1, h2 {
         color: rgb(228, 255, 105);
@@ -113,22 +118,21 @@
 #pic1 {
     height: 18rem;
     width:  18rem;
-    position: relative;
-border-radius: 200px;
-box-shadow: 10px 5px 19px rgb(61, 47, 47);
+    border-radius: 200px;
+    box-shadow: 10px 5px 19px rgb(61, 47, 47);
 // position: relative;
 // left: 19%;
 // border: 5px solid linear-gradient(135deg, rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%);
 &:hover {
     transition: 2s;
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 5px 3px 25px rgb(207, 211, 19);
 }
 }
 
 .pics {
-    width: 100%;
-    position: relative;
+    position: absolute;
+    left: 33%;
 }
 
 .date {

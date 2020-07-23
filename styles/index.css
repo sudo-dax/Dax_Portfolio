@@ -42,7 +42,7 @@ a:hover {
   color: green;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .short-text {
     display: inline-block;
   }
