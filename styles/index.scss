@@ -42,6 +42,22 @@
     color: green;
   }
 
+.glow {
+  color: #ff7f11;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #FFBE10, 0 0 20px #F3AA03, 0 0 30px #FE8F05, 0 0 40px #DC4308, 0 0 50px #B81904, 0 0 60px #B40501, 0 0 70px #9A0501;
+  }
+  to {
+    text-shadow: 0 0 20px #9A0501, 0 0 30px #ff1b1c, 0 0 40px #4F000B, 0 0 50px #FCC606, 0 0 60px , 0 0 70px #FE8F05, 0 0 80px ;
+  }
+}
+
 p {
     margin-top: -30px;
 }
