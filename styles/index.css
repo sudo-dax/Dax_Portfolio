@@ -19,12 +19,14 @@ body {
 
 .bar {
   position: fixed;
-  height: 40vh;
+  height: 20vh;
   width: 100%;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
   color: #f1f1f1;
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 #wrapper {
@@ -42,12 +44,24 @@ a:hover {
   color: green;
 }
 
-@media (max-width: 900px) {
+p {
+  margin-top: -30px;
+}
+
+.short-text {
+  display: none;
+}
+
+.full-text {
+  display: inline-block;
+}
+
+@media (max-width: 1000px) {
   .short-text {
     display: inline-block;
   }
   .bar {
-    height: 18vh;
+    height: 15vh;
   }
   .full-text {
     display: none;
