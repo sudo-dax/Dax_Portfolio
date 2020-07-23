@@ -7,14 +7,14 @@
 }
 
 .main .text {
-  width: 80%;
+  width: 44%;
   top: 8em;
   padding-top: .8rem;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
   margin-bottom: 1.8rem;
-  margin-left: 0.9rem;
+  margin-left: 20rem;
   background-color: transparent;
   -webkit-box-shadow: 10px 5px 19px #3d2f2f;
           box-shadow: 10px 5px 19px #3d2f2f;
@@ -27,7 +27,7 @@
   transition: 0.6s;
   border: 1px dotted green;
   background-color: rgba(0, 0, 0, 0.5);
-  margin-left: 11.9rem;
+  margin-left: 25rem;
 }
 
 .main .text h1, .main .text h2, .main .text h3 {
@@ -90,6 +90,7 @@ p {
           box-shadow: 10px 5px 19px #3d2f2f;
   border-radius: 15px;
   font-size: 2vh;
+  text-align: center;
 }
 
 .text:hover {
